@@ -1263,6 +1263,7 @@ drawable ic_mtrl_chip_close_circle
 drawable ic_nav_back
 drawable ic_password
 drawable ic_person
+drawable ic_playlist_add_white_24dp
 drawable ic_right_white
 drawable ic_search
 drawable ic_settings
@@ -1453,6 +1454,7 @@ id est_delivery
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
+id fab
 id fab_label
 id fill
 id fill_horizontal
@@ -1712,6 +1714,7 @@ id textinput_counter
 id textinput_error
 id textinput_helper_text
 id textview_alregister
+id textview_forgot_pass
 id textview_hint
 id textview_register
 id time

@@ -1,4 +1,4 @@
-#Fri Nov 08 11:39:56 IST 2019
-base.0=C\:\\Users\\aziza\\To be deleted\\Android Projects\\New folder\\fpe_softwares-master\\Android_App_FreeGifts\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
+#Sun Nov 10 17:03:46 IST 2019
+base.0=H\:\\GitRepo\\Inventory\\Android_App_Inventory\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

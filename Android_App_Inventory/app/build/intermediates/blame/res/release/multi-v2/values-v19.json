@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\aziza\\To be deleted\\Android Projects\\New folder\\fpe_softwares-master\\Android_App_FreeGifts\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-v19\\values-v19.xml",
+            "outputFile": "H:\\GitRepo\\Inventory\\Android_App_Inventory\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-v19\\values-v19.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\aziza\\.gradle\\caches\\transforms-2\\files-2.1\\a0a972c1971084567acacd14359e5790\\android-sdk-1.2.6\\res\\values-v19\\values-v19.xml",
+                    "source": "C:\\Users\\Abdul\\.gradle\\caches\\transforms-2\\files-2.1\\a0a972c1971084567acacd14359e5790\\android-sdk-1.2.6\\res\\values-v19\\values-v19.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
