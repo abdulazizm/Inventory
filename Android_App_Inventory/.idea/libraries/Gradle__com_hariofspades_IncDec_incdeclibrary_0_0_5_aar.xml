@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.hariofspades.IncDec:incdeclibrary:0.0.5@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/acaff874c4a91873bf2b21d5eda47a19/incdeclibrary-0.0.5/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/acaff874c4a91873bf2b21d5eda47a19/incdeclibrary-0.0.5/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.hariofspades.IncDec/incdeclibrary/0.0.5/197bc5e5ea415edc0d3dd8231621c77e94468b01/incdeclibrary-0.0.5-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.hariofspades.IncDec/incdeclibrary/0.0.5/60506514cacb4e4879e58c49595b488f37c9aad5/incdeclibrary-0.0.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
