@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity"
+    android:background="@drawable/back">
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      android:gravity="center_horizontal">
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="60dp"
+        app:srcCompat="@drawable/fpelabs" />
+
+    <TextView
+        android:id="@+id/tag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Register"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"/>
+
+    <EditText
+        android:id="@+id/editText_username"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:drawableLeft="@drawable/ic_user"
+        android:background="@color/invisible"
+        android:hint="Username"
+        android:lines="1"
+        android:maxLength="12"
+        android:textColor="@color/blue_dark"
+        android:textColorHint="@color/blue_dark"/>
+
+    <EditText
+        android:id="@+id/editText_company"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/ic_domain_white_24dp"
+        android:background="@color/invisible"
+        android:hint="Company Name"
+        android:lines="1"
+        android:maxLength="12"
+        android:textColor="@color/blue_dark"
+        android:textColorHint="@color/blue_dark"/>
+
+    <EditText
+        android:id="@+id/editText_password"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="12"
+        android:maxLength="14"
+        android:drawableLeft="@drawable/ic_password"
+        android:inputType="textPassword"
+        android:background="@color/invisible"
+        android:hint="7-14 digit Password"
+        android:lines="1"
+        android:textColor="@color/blue_dark"
+        android:textColorHint="@color/blue_dark"/>
+
+    <EditText
+        android:id="@+id/editText_cnf_password"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="12"
+        android:lines="1"
+        android:maxLength="14"
+        android:inputType="textPassword"
+        android:drawableLeft="@drawable/ic_password"
+        android:background="@color/invisible"
+        android:textColor="@color/blue_dark"
+        android:hint="Re-Enter Password"
+        android:textColorHint="@color/blue_dark"/>
+
+    <TextView
+        android:id="@+id/textview_hint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white" />
+
+    <ImageView
+        android:id="@+id/register"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        app:srcCompat="@drawable/arrow_forward"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/textview_alregister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Already Register? Login"
+        android:textStyle="bold"
+        android:textColor="@color/white"/>
+
+  </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

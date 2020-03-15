@@ -1,0 +1,163 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.FingerPointEngg.Labs.OpenSourceInventory"
+4    android:versionCode="7"
+5    android:versionName="5.1.1" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="15"
+8-->H:\GitRepo\Inventory\Android_App_Inventory\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->H:\GitRepo\Inventory\Android_App_Inventory\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+11-->H:\GitRepo\Inventory\Android_App_Inventory\app\src\main\AndroidManifest.xml:6:5-74
+11-->H:\GitRepo\Inventory\Android_App_Inventory\app\src\main\AndroidManifest.xml:6:22-71
+12    <uses-permission android:name="android.permission.VIBRATE" />
+12-->H:\GitRepo\Inventory\Android_App_Inventory\app\src\main\AndroidManifest.xml:7:5-66
+12-->H:\GitRepo\Inventory\Android_App_Inventory\app\src\main\AndroidManifest.xml:7:22-63
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->H:\GitRepo\Inventory\Android_App_Inventory\app\src\main\AndroidManifest.xml:8:5-67
+13-->H:\GitRepo\Inventory\Android_App_Inventory\app\src\main\AndroidManifest.xml:8:22-64
+14    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+14-->H:\GitRepo\Inventory\Android_App_Inventory\app\src\main\AndroidManifest.xml:9:5-75
+14-->H:\GitRepo\Inventory\Android_App_Inventory\app\src\main\AndroidManifest.xml:9:22-72
+15    <uses-permission android:name="com.google.android.gms.permission.ACTIVITY_RECOGNITION" />
+15-->H:\GitRepo\Inventory\Android_App_Inventory\app\src\main\AndroidManifest.xml:10:5-94
+15-->H:\GitRepo\Inventory\Android_App_Inventory\app\src\main\AndroidManifest.xml:10:22-91
+16    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+16-->H:\GitRepo\Inventory\Android_App_Inventory\app\src\main\AndroidManifest.xml:11:5-81
+16-->H:\GitRepo\Inventory\Android_App_Inventory\app\src\main\AndroidManifest.xml:11:22-78
+17    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+17-->H:\GitRepo\Inventory\Android_App_Inventory\app\src\main\AndroidManifest.xml:12:5-79
+17-->H:\GitRepo\Inventory\Android_App_Inventory\app\src\main\AndroidManifest.xml:12:22-76
+18    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+18-->H:\GitRepo\Inventory\Android_App_Inventory\app\src\main\AndroidManifest.xml:13:5-81
+18-->H:\GitRepo\Inventory\Android_App_Inventory\app\src\main\AndroidManifest.xml:13:22-78
+19    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+19-->H:\GitRepo\Inventory\Android_App_Inventory\app\src\main\AndroidManifest.xml:14:5-80
+19-->H:\GitRepo\Inventory\Android_App_Inventory\app\src\main\AndroidManifest.xml:14:22-77
+20    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+20-->H:\GitRepo\Inventory\Android_App_Inventory\app\src\main\AndroidManifest.xml:15:5-79
+20-->H:\GitRepo\Inventory\Android_App_Inventory\app\src\main\AndroidManifest.xml:15:22-76
+21    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+21-->[in.juspay:godel:0.6.18.1423] C:\Users\Abdul\.gradle\caches\transforms-2\files-2.1\3ecb42ea3167c56c2d93e2fd387277ca\godel-0.6.18.1423\AndroidManifest.xml:10:5-76
+21-->[in.juspay:godel:0.6.18.1423] C:\Users\Abdul\.gradle\caches\transforms-2\files-2.1\3ecb42ea3167c56c2d93e2fd387277ca\godel-0.6.18.1423\AndroidManifest.xml:10:22-73
+22
+23    <application
+23-->H:\GitRepo\Inventory\Android_App_Inventory\app\src\main\AndroidManifest.xml:17:5-54:19
+24        android:allowBackup="true"
+24-->H:\GitRepo\Inventory\Android_App_Inventory\app\src\main\AndroidManifest.xml:18:9-35
+25        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+25-->[com.android.support:support-compat:28.0.0] C:\Users\Abdul\.gradle\caches\transforms-2\files-2.1\ccf94a4f227dfa4f17156620e28a8b98\support-compat-28.0.0\AndroidManifest.xml:22:18-91
+26        android:icon="@mipmap/ic_launcher"
+26-->H:\GitRepo\Inventory\Android_App_Inventory\app\src\main\AndroidManifest.xml:19:9-43
+27        android:label="OpenSourceInventory"
+27-->H:\GitRepo\Inventory\Android_App_Inventory\app\src\main\AndroidManifest.xml:20:9-44
+28        android:roundIcon="@mipmap/ic_launcher_round"
+28-->H:\GitRepo\Inventory\Android_App_Inventory\app\src\main\AndroidManifest.xml:21:9-54
+29        android:supportsRtl="true"
+29-->H:\GitRepo\Inventory\Android_App_Inventory\app\src\main\AndroidManifest.xml:22:9-35
+30        android:theme="@style/AppTheme" >
+30-->H:\GitRepo\Inventory\Android_App_Inventory\app\src\main\AndroidManifest.xml:23:9-40
+31        <activity android:name="com.FingerPointEngg.Labs.OpenSourceInventory.UpdateInventory" />
+31-->H:\GitRepo\Inventory\Android_App_Inventory\app\src\main\AndroidManifest.xml:26:9-53
+31-->H:\GitRepo\Inventory\Android_App_Inventory\app\src\main\AndroidManifest.xml:26:19-50
+32        <activity android:name="com.FingerPointEngg.Labs.OpenSourceInventory.Inventory" />
+32-->H:\GitRepo\Inventory\Android_App_Inventory\app\src\main\AndroidManifest.xml:27:9-47
+32-->H:\GitRepo\Inventory\Android_App_Inventory\app\src\main\AndroidManifest.xml:27:19-44
+33        <activity
+33-->H:\GitRepo\Inventory\Android_App_Inventory\app\src\main\AndroidManifest.xml:28:9-30:65
+34            android:name="com.FingerPointEngg.Labs.OpenSourceInventory.BottomNav"
+34-->H:\GitRepo\Inventory\Android_App_Inventory\app\src\main\AndroidManifest.xml:29:13-38
+35            android:label="@string/title_activity_bottom_nav" />
+35-->H:\GitRepo\Inventory\Android_App_Inventory\app\src\main\AndroidManifest.xml:30:13-62
+36        <activity
+36-->H:\GitRepo\Inventory\Android_App_Inventory\app\src\main\AndroidManifest.xml:31:9-39:20
+37            android:name="com.FingerPointEngg.Labs.OpenSourceInventory.SplashScreen"
+37-->H:\GitRepo\Inventory\Android_App_Inventory\app\src\main\AndroidManifest.xml:32:13-41
+38            android:theme="@style/AppTheme.NoActionBar" >
+38-->H:\GitRepo\Inventory\Android_App_Inventory\app\src\main\AndroidManifest.xml:33:13-56
+39            <intent-filter>
+39-->H:\GitRepo\Inventory\Android_App_Inventory\app\src\main\AndroidManifest.xml:34:13-38:29
+40                <action android:name="android.intent.action.MAIN" />
+40-->H:\GitRepo\Inventory\Android_App_Inventory\app\src\main\AndroidManifest.xml:35:17-69
+40-->H:\GitRepo\Inventory\Android_App_Inventory\app\src\main\AndroidManifest.xml:35:25-66
+41
+42                <category android:name="android.intent.category.LAUNCHER" />
+42-->H:\GitRepo\Inventory\Android_App_Inventory\app\src\main\AndroidManifest.xml:37:17-77
+42-->H:\GitRepo\Inventory\Android_App_Inventory\app\src\main\AndroidManifest.xml:37:27-74
+43            </intent-filter>
+44        </activity>
+45        <activity
+45-->H:\GitRepo\Inventory\Android_App_Inventory\app\src\main\AndroidManifest.xml:40:9-42:59
+46            android:name="com.FingerPointEngg.Labs.OpenSourceInventory.RegisterActivity"
+46-->H:\GitRepo\Inventory\Android_App_Inventory\app\src\main\AndroidManifest.xml:41:13-45
+47            android:theme="@style/AppTheme.NoActionBar" />
+47-->H:\GitRepo\Inventory\Android_App_Inventory\app\src\main\AndroidManifest.xml:42:13-56
+48        <activity
+48-->H:\GitRepo\Inventory\Android_App_Inventory\app\src\main\AndroidManifest.xml:43:9-45:59
+49            android:name="com.FingerPointEngg.Labs.OpenSourceInventory.LoginActivity"
+49-->H:\GitRepo\Inventory\Android_App_Inventory\app\src\main\AndroidManifest.xml:44:13-42
+50            android:theme="@style/AppTheme.NoActionBar" />
+50-->H:\GitRepo\Inventory\Android_App_Inventory\app\src\main\AndroidManifest.xml:45:13-56
+51        <activity android:name="com.FingerPointEngg.Labs.OpenSourceInventory.ProductList" />
+51-->H:\GitRepo\Inventory\Android_App_Inventory\app\src\main\AndroidManifest.xml:46:9-49
+51-->H:\GitRepo\Inventory\Android_App_Inventory\app\src\main\AndroidManifest.xml:46:19-46
+52        <activity android:name="com.FingerPointEngg.Labs.OpenSourceInventory.ProductPage" />
+52-->H:\GitRepo\Inventory\Android_App_Inventory\app\src\main\AndroidManifest.xml:47:9-49
+52-->H:\GitRepo\Inventory\Android_App_Inventory\app\src\main\AndroidManifest.xml:47:19-46
+53
+54        <meta-data
+54-->H:\GitRepo\Inventory\Android_App_Inventory\app\src\main\AndroidManifest.xml:49:9-51:90
+55            android:name="instamojo.orderauth.url"
+55-->H:\GitRepo\Inventory\Android_App_Inventory\app\src\main\AndroidManifest.xml:50:13-51
+56            android:value="https://fpelabs.com/Android_App/FreeGifts/access_token.php" />
+56-->H:\GitRepo\Inventory\Android_App_Inventory\app\src\main\AndroidManifest.xml:51:13-87
+57
+58        <activity android:name="com.FingerPointEngg.Labs.OpenSourceInventory.ComingSoon" />
+58-->H:\GitRepo\Inventory\Android_App_Inventory\app\src\main\AndroidManifest.xml:53:9-48
+58-->H:\GitRepo\Inventory\Android_App_Inventory\app\src\main\AndroidManifest.xml:53:19-45
+59        <activity android:name="instamojo.library.Instamojo" >
+59-->[ai.devsupport.instamojo:instamojolib:0.1.6] C:\Users\Abdul\.gradle\caches\transforms-2\files-2.1\4738584d43edd12ae348062484888c04\instamojolib-0.1.6\AndroidManifest.xml:14:9-15:20
+59-->[ai.devsupport.instamojo:instamojolib:0.1.6] C:\Users\Abdul\.gradle\caches\transforms-2\files-2.1\4738584d43edd12ae348062484888c04\instamojolib-0.1.6\AndroidManifest.xml:14:19-61
+60        </activity>
+61        <activity
+61-->[com.instamojo:android-sdk:1.2.6] C:\Users\Abdul\.gradle\caches\transforms-2\files-2.1\a0a972c1971084567acacd14359e5790\android-sdk-1.2.6\AndroidManifest.xml:15:9-26:20
+62            android:name="com.instamojo.android.activities.PaymentDetailsActivity"
+62-->[com.instamojo:android-sdk:1.2.6] C:\Users\Abdul\.gradle\caches\transforms-2\files-2.1\a0a972c1971084567acacd14359e5790\android-sdk-1.2.6\AndroidManifest.xml:16:13-83
+63            android:screenOrientation="portrait"
+63-->[com.instamojo:android-sdk:1.2.6] C:\Users\Abdul\.gradle\caches\transforms-2\files-2.1\a0a972c1971084567acacd14359e5790\android-sdk-1.2.6\AndroidManifest.xml:17:13-49
+64            android:theme="@style/SdkTheme" >
+64-->[com.instamojo:android-sdk:1.2.6] C:\Users\Abdul\.gradle\caches\transforms-2\files-2.1\a0a972c1971084567acacd14359e5790\android-sdk-1.2.6\AndroidManifest.xml:18:13-44
+65            <meta-data
+65-->[com.instamojo:android-sdk:1.2.6] C:\Users\Abdul\.gradle\caches\transforms-2\files-2.1\a0a972c1971084567acacd14359e5790\android-sdk-1.2.6\AndroidManifest.xml:19:13-21:54
+66                android:name="android.app.searchable"
+66-->[com.instamojo:android-sdk:1.2.6] C:\Users\Abdul\.gradle\caches\transforms-2\files-2.1\a0a972c1971084567acacd14359e5790\android-sdk-1.2.6\AndroidManifest.xml:20:17-54
+67                android:resource="@xml/searchable" />
+67-->[com.instamojo:android-sdk:1.2.6] C:\Users\Abdul\.gradle\caches\transforms-2\files-2.1\a0a972c1971084567acacd14359e5790\android-sdk-1.2.6\AndroidManifest.xml:21:17-51
+68
+69            <intent-filter>
+69-->[com.instamojo:android-sdk:1.2.6] C:\Users\Abdul\.gradle\caches\transforms-2\files-2.1\a0a972c1971084567acacd14359e5790\android-sdk-1.2.6\AndroidManifest.xml:23:13-25:29
+70                <action android:name="android.intent.action.SEARCH" />
+70-->[com.instamojo:android-sdk:1.2.6] C:\Users\Abdul\.gradle\caches\transforms-2\files-2.1\a0a972c1971084567acacd14359e5790\android-sdk-1.2.6\AndroidManifest.xml:24:17-71
+70-->[com.instamojo:android-sdk:1.2.6] C:\Users\Abdul\.gradle\caches\transforms-2\files-2.1\a0a972c1971084567acacd14359e5790\android-sdk-1.2.6\AndroidManifest.xml:24:25-68
+71            </intent-filter>
+72        </activity>
+73        <activity
+73-->[com.instamojo:android-sdk:1.2.6] C:\Users\Abdul\.gradle\caches\transforms-2\files-2.1\a0a972c1971084567acacd14359e5790\android-sdk-1.2.6\AndroidManifest.xml:27:9-33:58
+74            android:name="com.instamojo.android.activities.PaymentActivity"
+74-->[com.instamojo:android-sdk:1.2.6] C:\Users\Abdul\.gradle\caches\transforms-2\files-2.1\a0a972c1971084567acacd14359e5790\android-sdk-1.2.6\AndroidManifest.xml:28:13-76
+75            android:hardwareAccelerated="true"
+75-->[com.instamojo:android-sdk:1.2.6] C:\Users\Abdul\.gradle\caches\transforms-2\files-2.1\a0a972c1971084567acacd14359e5790\android-sdk-1.2.6\AndroidManifest.xml:29:13-47
+76            android:label="Payment"
+76-->[com.instamojo:android-sdk:1.2.6] C:\Users\Abdul\.gradle\caches\transforms-2\files-2.1\a0a972c1971084567acacd14359e5790\android-sdk-1.2.6\AndroidManifest.xml:30:13-36
+77            android:screenOrientation="portrait"
+77-->[com.instamojo:android-sdk:1.2.6] C:\Users\Abdul\.gradle\caches\transforms-2\files-2.1\a0a972c1971084567acacd14359e5790\android-sdk-1.2.6\AndroidManifest.xml:31:13-49
+78            android:theme="@style/SdkTheme"
+78-->[com.instamojo:android-sdk:1.2.6] C:\Users\Abdul\.gradle\caches\transforms-2\files-2.1\a0a972c1971084567acacd14359e5790\android-sdk-1.2.6\AndroidManifest.xml:32:13-44
+79            android:windowSoftInputMode="adjustResize" />
+79-->[com.instamojo:android-sdk:1.2.6] C:\Users\Abdul\.gradle\caches\transforms-2\files-2.1\a0a972c1971084567acacd14359e5790\android-sdk-1.2.6\AndroidManifest.xml:33:13-55
+80    </application>
+81
+82</manifest>
