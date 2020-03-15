@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <dimen name="status_bar_height">25dp</dimen>
-    <style name="SdkTheme" parent="@style/BaseTheme">
-        <item name="android:windowTranslucentStatus">true</item>
-    </style>
-</resources>
