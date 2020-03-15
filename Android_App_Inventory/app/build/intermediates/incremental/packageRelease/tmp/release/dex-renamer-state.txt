@@ -1,0 +1,4 @@
+#Sun Nov 10 17:04:18 IST 2019
+base.0=H\:\\GitRepo\\Inventory\\Android_App_Inventory\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
